@@ -8,7 +8,6 @@ const Hero = () => {
   useEffect(() => {
     gsap.to([".hero-title", ".hero-description", ".hero-buttons"], {
       color: "black",
-      y: -60,
       yoyo: true,
       ease: "power1.inOut",
       stagger: 0.3,
